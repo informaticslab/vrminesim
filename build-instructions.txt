@@ -1,0 +1,35 @@
+18 November 2011
+Mine Sim Virtual Reality Training Program
+
+Steps to download, build, and run code:
+1.	Download UDK October 2011 Beta - http://www.udk.com/download
+2.	Download zipped code folder from latest code drop.
+3.	Extract MineSim Zip on top of \UDK\UDK-2011-10\ folder
+3.1	Click “Replace All” on prompt
+4.	Setup iOS Provisioning Profile: http://udn.epicgames.com/Three/AppleiOSProvisioningSetup.html
+5.	Use MobileFrontend to generate the ipa File:http://udn.epicgames.com/Three/UnrealFrontend.html
+5.1	Configure the game by clicking on the profiles button at the very top
+Settings:
+-Game: UDK Game
+-Platform: iPhone
+-Game config: Release_32
+-Script config: ReleaseScript
+-Cook/Make config: Shipping_32
+-Click “Add Maps to Cook” and select “MineCitadel.udk”
+-Check “Override default” checkbox
+-Set Mobile Packaging Mode to “default”
+-Click the green Start button at the top left
+-Game file will be under \UDK\UDK-2011-10\Binaries\IPhone
+-File is named: UDKGame-IPhone-Release.ipa 
+
+
+Useful Links:
+http://udn.epicgames.com/Main/WebHome.html 
+	Main Unreal Developers Network home page
+Information regarding the Unreal Engine, plus blogs and forums from users
+http://udn.epicgames.com/Three/MobileHome.html
+	Unreal Developers Network for Mobile page
+	Information regarding using the Unreal Engine on the iOS platform
+http://udn.epicgames.com/Three/DistributionAppleiOS.html
+		Publishing to the App Store 
+

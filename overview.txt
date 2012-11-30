@@ -1,0 +1,28 @@
+Mine Sim Virtual Reality Training Program
+
+Overview: The MineSim Virtual Reality Training Program allows a single user to interact within a virtual mine.  Currently there is a sample scenario that the user must discover and choose a response.  The environment will react to the users input.
+Platform: iOS mobile devices
+Engine: Unreal Engine 3 (UDK)
+
+Major Features:
+-3D fully virtual simulated mine environment
+-Gyroscope capabilities allow user to use mobile device to view environment in an immersive way.
+-User can interact with a sample safety training scenario. 
+-Graphical environment responds to user’s interaction
+-In-app settings menu allows user to toggle scenario on or off, and to reset scenario in real time. 
+
+Recommended New Features:
+-Content Management System
+--Web-based management system which would allow a configuration of scenarios, events, and environments.
+-Authoring Content
+--MineSim uses Unreal Engine’s dynamic content authoring system, Kismet, which allows event scripting of scenarios, action items, sounds, and objects.
+--Objects, sounds, and art assets must be created  with external tools and imported into Unreal’s Content Library for each game before use in Kismet.
+-Networking
+--Unreal Engine has many networking capabilities; MineSim will need to research and develop a networking process 
+-Instructor Mode
+--Once mobile devices can network together, an instructor mode can be created, which would allow interaction between the user, an instructor, and the environment.
+--The instructor device would be able to control the environment and scenario settings for the user device
+-Multi-user Mode
+--The networking can be further expanded to allow several users to interact within the same environment simultaneously as in a classroom or training setting.
+--The multiuser mode can be integrated into the instructor model so that one instructor can interact with many users in the same environment (as in a “lecture” setting for the traditional classroom), or conversely to run unique environments for each user (as in a testing setting).
+
